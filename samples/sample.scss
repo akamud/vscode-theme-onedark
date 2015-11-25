@@ -1,0 +1,21 @@
+
+// Accent colors
+// -------------------------
+$blue:                  #007eb3;
+$blueDark:              #0064cd;
+$green:                 #46a546;
+$red:                   #9d261d;
+$yellow:                #ffc40d;
+$orange:                #f89406;
+$pink:                  #bc0085;
+$purple:                #7a43b6;
+body {
+	font-size: 1em;
+	line-height: 1.4;
+	font-family: $customRegular;
+
+}
+h1,h2,h3,h4 {
+	font-family: $customThin;
+	font-weight: normal;
+}
