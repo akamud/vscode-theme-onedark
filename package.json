@@ -2,7 +2,7 @@
     "name": "vscode-theme-onedark",
     "displayName": "One Dark Theme",
     "description": "One Dark Theme based on Atom",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "akamud",
     "license": "MIT",
     "engines": {
@@ -11,6 +11,7 @@
     "categories": [
     "Themes"
     ],
+    "icon": "icon.svg",
     "contributes": {
         "themes": [
             {
@@ -19,5 +20,13 @@
                 "path": "./themes/One%20Dark.tmTheme"
             }
         ]
+    },
+    "bugs": {
+        "url": "https://github.com/akamud/vscode-theme-onedark/issues"
+    },
+    "homepage": "https://github.com/akamud/vscode-theme-onedark/blob/master/README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/akamud/vscode-theme-onedark.git"
     }
 }
