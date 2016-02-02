@@ -9,6 +9,11 @@ This extension is available for free in the [Visual Studio Code Marketplace](htt
 ext install One Dark Theme
 ```
 
+## What's new?
+
+**Version 0.2.1**  
+* Better support for C# and Java
+
 ## Inconsistencies 
 
 If you find any inconsistency in any language, raise an Issue and I'll fix it, please provide a sample for the language so I can compare. 
