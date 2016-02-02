@@ -3,3 +3,5 @@ samples/**
 .gitignore
 tsconfig.json
 vsc-extension-quickstart.md
+Fixing colors.txt
+screenshots/**
