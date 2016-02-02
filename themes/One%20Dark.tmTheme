@@ -127,6 +127,50 @@
 				<string>#e06c75</string>
 			</dict>
 		</dict>
+        <dict>
+			<key>name</key>
+			<string>Java Variables</string>
+			<key>scope</key>
+			<string>token.variable.parameter.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Java Imports</string>
+			<key>scope</key>
+			<string>import.storage.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e5c07b</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Packages</string>
+			<key>scope</key>
+			<string>token.package.keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c678dd</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Packages</string>
+			<key>scope</key>
+			<string>token.package</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Functions</string>
@@ -138,11 +182,11 @@
 				<string>#61afef</string>
 			</dict>
 		</dict>
-		<dict>
+        <dict>
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>support.class, entity.name.class, entity.name.type.class</string>
+			<string>entity.name.type.namespace</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -153,11 +197,55 @@
 			<key>name</key>
 			<string>Classes</string>
 			<key>scope</key>
-			<string>meta.class</string>
+			<string>support.class, entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#e5c07b</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Class name</string>
+			<key>scope</key>
+			<string>entity.name.class.identifier.namespace.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e5c07b</string>
+			</dict>
+		</dict>	
+        <dict>
+			<key>name</key>
+			<string>Class name</string>
+			<key>scope</key>
+			<string>entity.name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#61afef</string>
+			</dict>
+		</dict>	
+        <dict>
+			<key>name</key>
+			<string>Keyword Control</string>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c678dd</string>
+			</dict>
+		</dict>	
+        <dict>
+			<key>name</key>
+			<string>Control Elements</string>
+			<key>scope</key>
+			<string>control.elements, keyword.operator.less</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -180,6 +268,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#c678dd</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Java Storage</string>
+			<key>scope</key>
+			<string>token.storage.type.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e5c07b</string>
 			</dict>
 		</dict>
 		<dict>
@@ -457,6 +556,39 @@
 			<dict>
 				<key>foreground</key>
 				<string>#c678dd</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Bold Markdown</string>
+			<key>scope</key>
+			<string>strong md</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Monospace Markdown</string>
+			<key>scope</key>
+			<string>variable md</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98c379</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>Keyword Markdown</string>
+			<key>scope</key>
+			<string>keyword md</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06c75</string>
 			</dict>
 		</dict>
 		<dict>
