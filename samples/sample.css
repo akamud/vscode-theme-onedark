@@ -7,3 +7,11 @@ p:first-letter{
 	font-size:60px;
 	font-family:Georgia;
 }
+
+p {
+    margin: 10px;
+}
+
+.class {
+    margin: 10px;
+}
