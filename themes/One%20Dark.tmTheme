@@ -214,7 +214,7 @@
 				<key>foreground</key>
 				<string>#e5c07b</string>
 			</dict>
-		</dict>	
+		</dict>
         <dict>
 			<key>name</key>
 			<string>Class name</string>
@@ -225,7 +225,18 @@
 				<key>foreground</key>
 				<string>#61afef</string>
 			</dict>
-		</dict>	
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Type Name</string>
+			<key>scope</key>
+			<string>entity.name.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e5c07b</string>
+			</dict>
+		</dict>
         <dict>
 			<key>name</key>
 			<string>Keyword Control</string>
@@ -236,7 +247,7 @@
 				<key>foreground</key>
 				<string>#c678dd</string>
 			</dict>
-		</dict>	
+		</dict>
         <dict>
 			<key>name</key>
 			<string>Control Elements</string>
