@@ -46,7 +46,7 @@
 				<string>#3e4451</string>
 			</dict>
 		</dict>
-		<dict>
+		<!--<dict>
 			<key>name</key>
 			<string>Text</string>
 			<key>scope</key>
@@ -56,7 +56,7 @@
 				<key>foreground</key>
 				<string>#A6B2C0</string>
 			</dict>
-		</dict>
+		</dict>-->
 		<dict>
 			<key>name</key>
 			<string>Comments</string>
@@ -703,7 +703,7 @@
 				<string>#C679DD</string>
 			</dict>
 		</dict>
-		<dict>
+		<!--<dict>
 			<key>name</key>
 			<string>Colors</string>
 			<key>scope</key>
@@ -713,7 +713,7 @@
 				<key>foreground</key>
 				<string>#57B6C2</string>
 			</dict>
-		</dict>
+		</dict>-->
 		<dict>
 			<key>name</key>
 			<string>Regular Expressions</string>
@@ -863,6 +863,94 @@
 			<dict>
 				<key>foreground</key>
 				<string>#C679DD</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>python function decorator @</string>
+			<key>scope</key>
+			<string>meta.function.decorator.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#61afef</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>python function support</string>
+			<key>scope</key>
+			<string>support.token.decorator.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56B6C2</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>parameter function</string>
+			<key>scope</key>
+			<string>function.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>brace function</string>
+			<key>scope</key>
+			<string>function.brace</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>parameter function ruby cs</string>
+			<key>scope</key>
+			<string>function.parameter.ruby, function.parameter.cs</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>rgb-value</string>
+			<key>scope</key>
+			<string>rgb-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56B6C2</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>rgb value #</string>
+			<key>scope</key>
+			<string>inline-color-decoration rgb-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>rgb value less</string>
+			<key>scope</key>
+			<string>less rgb-value</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
 			</dict>
 		</dict>
 	</array>

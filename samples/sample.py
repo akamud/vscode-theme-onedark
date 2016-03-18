@@ -17,3 +17,7 @@ fp.close()
 msg['Subject'] = 'The contents of %s' % textfile
 msg['From'] = me
 msg['To'] = you
+
+@classmethod
+def someMethod(foo):
+    someOtherMethod(1, "2",bar=foo)
