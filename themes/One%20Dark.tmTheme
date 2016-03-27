@@ -283,6 +283,17 @@
 		</dict>
         <dict>
 			<key>name</key>
+			<string>Storage JS TS</string>
+			<key>scope</key>
+			<string>token.storage.js,token.storage.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c678dd</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
 			<string>Java Storage</string>
 			<key>scope</key>
 			<string>token.storage.type.java</string>
@@ -900,6 +911,17 @@
 		</dict>
         <dict>
 			<key>name</key>
+			<string>parameter function js</string>
+			<key>scope</key>
+			<string>function.parameter.js,function.parameter.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
 			<string>brace function</string>
 			<key>scope</key>
 			<string>function.brace</string>
@@ -962,6 +984,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#e06c75</string>
+			</dict>
+		</dict>
+        <dict>
+			<key>name</key>
+			<string>js ts this</string>
+			<key>scope</key>
+			<string>var.this.js,var.this.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DF6A73</string>
 			</dict>
 		</dict>
 	</array>
