@@ -11,9 +11,9 @@ ext install One Dark Theme
 
 ## What's new?
 
-**Version 0.2.3**  
+**Version 0.2.4**  
 * Better support for C# and Java
-* Fix Ruby, Python, Go, Sass and Less inconsistencies
+* Fix Ruby, Python, Go, Sass, Less and some JavaScript inconsistencies
 
 ## Inconsistencies 
 
