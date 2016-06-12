@@ -766,9 +766,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#f2777a</string>
+				<string>#e05252</string>
 				<key>foreground</key>
-				<string>#272B33</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -779,9 +779,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#f99157</string>
+				<string>#e05252</string>
 				<key>foreground</key>
-				<string>#2d2d2d</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -794,7 +794,7 @@
 				<key>background</key>
 				<string>#d27b53</string>
 				<key>foreground</key>
-				<string>#272B33</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -807,7 +807,7 @@
 				<key>background</key>
 				<string>#747369</string>
 				<key>foreground</key>
-				<string>#272B33</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -891,7 +891,7 @@
 			<key>name</key>
 			<string>python function support</string>
 			<key>scope</key>
-			<string>support.token.decorator.python</string>
+			<string>support.token.decorator.python,meta.function.decorator.identifier.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -995,6 +995,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#DF6A73</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>block scope</string>
+			<key>scope</key>
+			<string>block.scope.end,block.scope.begin</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
 			</dict>
 		</dict>
 	</array>

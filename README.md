@@ -11,7 +11,8 @@ ext install One Dark Theme
 
 ## What's new?
 
-**Version 0.2.5**  
+**Version 0.2.6**  
+* Fix unreadable codes in JSON and C/C++
 * Better support for C# and Java
 * Fix Ruby, Python, Go, Sass, Less and some JavaScript inconsistencies
 
