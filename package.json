@@ -2,7 +2,7 @@
     "name": "vscode-theme-onedark",
     "displayName": "One Dark Theme",
     "description": "One Dark Theme based on Atom",
-    "version": "0.2.6",
+    "version": "0.2.7",
     "publisher": "akamud",
     "license": "MIT",
     "engines": {
