@@ -21,3 +21,8 @@ msg['To'] = you
 @classmethod
 def someMethod(foo):
     someOtherMethod(1, "2",bar=foo)
+
+a = True
+b = 'bob'
+if True or a is not False and 'b' in b:
+    print('asdf')
