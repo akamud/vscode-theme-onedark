@@ -650,7 +650,7 @@
 			<key>name</key>
 			<string>Lists</string>
 			<key>scope</key>
-			<string>markup.list</string>
+			<string>markup.list.punctuation.definition</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1039,6 +1039,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#98c379</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Quote</string>
+			<key>scope</key>
+			<string>markdown.markup.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#5c6370</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 	</array>
