@@ -1021,6 +1021,39 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>tsx string</string>
+			<key>scope</key>
+			<string>token.tsx.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98c379</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>tsx type declaration</string>
+			<key>scope</key>
+			<string>token.tsx.meta.type.declaration.support</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56b6c2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>tsx constants (this, true, false)</string>
+			<key>scope</key>
+			<string>token.tsx.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>block scope</string>
 			<key>scope</key>
 			<string>block.scope.end,block.scope.begin</string>
