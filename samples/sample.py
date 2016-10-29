@@ -26,3 +26,5 @@ a = True
 b = 'bob'
 if True or a is not False and 'b' in b:
     print('asdf')
+
+foo = list()
