@@ -1032,9 +1032,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>tsx string</string>
+			<string>tsx, jsx string</string>
 			<key>scope</key>
-			<string>token.tsx.string</string>
+			<string>token.tsx.string,token.jsx.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1043,9 +1043,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>tsx type declaration</string>
+			<string>tsx, jsx type declaration</string>
 			<key>scope</key>
-			<string>token.tsx.meta.type.declaration.support</string>
+			<string>token.tsx.meta.type.declaration.support,token.jsx.meta.type.declaration.support</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1054,9 +1054,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>tsx constants (this, true, false)</string>
+			<string>tsx, jsx constants (this, true, false)</string>
 			<key>scope</key>
-			<string>token.tsx.constant</string>
+			<string>token.tsx.constant,token.jsx.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
