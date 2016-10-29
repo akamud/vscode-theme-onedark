@@ -12,7 +12,7 @@ ext install One Dark Theme
 ## What's new?
 
 **Version 0.2.8**
-* Add Python types function call*  
+* Add Python types function call
 * Fix Python logical operators coloring
 * Fix TSX and JSX highlighting
 * Fix Markdown tokens coloring
