@@ -505,13 +505,44 @@
 			<key>name</key>
 			<string>Headings</string>
 			<key>scope</key>
-			<string>markup.heading</string>
+			<string>markup.heading.entity.name</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#e06c75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Token Heading</string>
+			<key>scope</key>
+			<string>markup.heading punctuation.definition.heading.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#e06c75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown punctuation begin and end</string>
+			<key>scope</key>
+			<string>markdown.punctuation.link.begin,markdown.punctuation.link.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6B2C0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Link title</string>
+			<key>scope</key>
+			<string>markdown.link.title.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#61AFEF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -555,7 +586,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e5c07b</string>
+				<string>#d19a66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -626,24 +657,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Link Text</string>
-			<key>scope</key>
-			<string>string.other.link, punctuation.definition.string.end.markdown</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DF6A73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Link Url</string>
 			<key>scope</key>
 			<string>meta.link</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D2945D</string>
+				<string>#C678DD</string>
 			</dict>
 		</dict>
 		<dict>
