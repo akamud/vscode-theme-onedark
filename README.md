@@ -1,4 +1,4 @@
-# One Dark Theme
+# Atom One Dark Theme
 
 VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax) theme
 
@@ -11,7 +11,7 @@ ext install One Dark Theme
 
 ## What's new?
 
-**Version 0.2.8**
+**Version 0.2.9**
 * Add Python types function call
 * Fix Python logical operators coloring
 * Fix TSX and JSX highlighting
