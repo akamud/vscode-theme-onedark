@@ -11,7 +11,8 @@ ext install One Dark Theme
 
 ## What's new?
 
-**Version 0.2.9**
+**Version 0.2.10**
+* JSON color support
 * Add Python types function call
 * Fix Python logical operators coloring
 * Fix TSX and JSX highlighting

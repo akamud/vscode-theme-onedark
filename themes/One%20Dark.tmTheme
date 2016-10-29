@@ -845,7 +845,7 @@
 			<key>name</key>
 			<string>Json value</string>
 			<key>scope</key>
-			<string>source.json                       meta.structure.dictionary.json                           meta.structure.dictionary.value.json                       string.quoted.double.json</string>
+			<string>structure.dictionary.json.value</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -854,24 +854,35 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>json sub key</string>
+			<string>Json link</string>
 			<key>scope</key>
-			<string>source.json                           meta.structure.dictionary.json                          meta.structure.dictionary.value.json                        meta.structure.dictionary.json                      string.quoted.double.json</string>
+			<string>structure.dictionary.json.detected-link</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c678dd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Json punctuation</string>
+			<key>scope</key>
+			<string>structure.dictionary.json.punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6B2C0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>json property name</string>
+			<key>scope</key>
+			<string>structure.dictionary.json.property-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#DF6A73</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Json sub value</string>
-			<key>scope</key>
-			<string>source.json                       meta.structure.dictionary.json                        meta.structure.dictionary.value.json                       meta.structure.dictionary.json                          meta.structure.dictionary.value.json                            string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#90C378</string>
 			</dict>
 		</dict>
 		<dict>
