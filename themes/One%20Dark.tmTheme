@@ -1129,6 +1129,72 @@
 				<string>italic</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby punctuation</string>
+			<key>scope</key>
+			<string>ruby.punctuation.definition.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#56b6c2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Operator Other</string>
+			<key>scope</key>
+			<string>ruby.operator.other.keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98c379</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Require String</string>
+			<key>scope</key>
+			<string>ruby.require.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98c379</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Require</string>
+			<key>scope</key>
+			<string>ruby.require</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Special Method</string>
+			<key>scope</key>
+			<string>ruby.keyword.other.special-method,ruby.punctuation.section.fuction</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Ruby Separator Variable</string>
+			<key>scope</key>
+			<string>ruby.token.separator.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>
