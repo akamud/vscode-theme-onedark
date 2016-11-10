@@ -11,13 +11,10 @@ ext install One Dark Theme
 
 ## What's new?
 
-**Version 0.2.10**
-* JSON color support
-* Add Python types function call
-* Fix Python logical operators coloring
-* Fix TSX and JSX highlighting
-* Fix Markdown tokens coloring
-* Enable HTML Tokens in PHP files
+**Version 0.2.11**
+* Better Ruby coloring
+* Fix Rust lifetime colors
+* Fix PHP variables inside double quoted string
 
 ## Inconsistencies 
 
