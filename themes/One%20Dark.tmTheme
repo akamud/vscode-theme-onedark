@@ -1217,6 +1217,61 @@
 				<string>#33E8EC</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Safer Global Variable</string>
+			<key>scope</key>
+			<string>php.token.global.variable.safer</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E06C75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Double Quote</string>
+			<key>scope</key>
+			<string>php.token.double.quote.variable</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E06C75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Double Quote String Contents</string>
+			<key>scope</key>
+			<string>php.token.double.quoted</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98C379</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Double Quote Variable Puctuation Definition</string>
+			<key>scope</key>
+			<string>php.token.double.quoted.variable.punctuation.definition</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E06C75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Embedded Array</string>
+			<key>scope</key>
+			<string>token.punctuation.section.embedded.array</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ABB2BF</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>
