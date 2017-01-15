@@ -652,7 +652,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#90C378</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -709,7 +709,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#90C378</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -849,7 +849,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#90C378</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -911,7 +911,7 @@
 			<key>name</key>
 			<string>python function decorator @</string>
 			<key>scope</key>
-			<string>meta.function.decorator.python</string>
+			<string>meta.function.decorator.entity.name.python</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1272,6 +1272,7 @@
 				<string>#ABB2BF</string>
 			</dict>
 		</dict>
+		
 	</array>
 	<key>uuid</key>
 	<string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>

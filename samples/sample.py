@@ -28,3 +28,7 @@ if True or a is not False and 'b' in b:
     print('asdf')
 
 foo = list()
+
+@my_decorator('some_str', my_list=['str', 1])
+def my_func(args):
+    pass
