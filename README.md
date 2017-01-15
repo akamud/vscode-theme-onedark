@@ -5,7 +5,7 @@ VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax)
 
 ## Installing
 
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)
+This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)  
 
 ## What's new?
 
