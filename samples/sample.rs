@@ -14,3 +14,7 @@ fn main() {
 }
 
 type TimeoutFunction = Box<Fn(&str, &ArgsMatcher) -> ()>;
+
+fn whatever(&self, closure: Box<Fn() + 'static>) {
+  // do nothing
+}
