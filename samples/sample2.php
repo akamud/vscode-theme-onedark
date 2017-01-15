@@ -11,3 +11,10 @@ if (!isset($_SERVER['PHP_AUTH_USER'])) {
     echo "<p>You entered {$_SERVER['PHP_AUTH_PW']} as your password.</p>";
 }
 ?>
+
+<html lang="en">
+<head>
+  <title><?=$title;?></title>
+  <meta name="keywords" content="<?=$keywords;?>"/>
+</head>
+</html>

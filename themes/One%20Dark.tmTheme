@@ -1232,7 +1232,7 @@
 			<key>name</key>
 			<string>PHP Double Quote</string>
 			<key>scope</key>
-			<string>php.token.double.quote.variable</string>
+			<string>php.token.double.quoted.variable</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -1272,7 +1272,50 @@
 				<string>#ABB2BF</string>
 			</dict>
 		</dict>
-		
+		<dict>
+			<key>name</key>
+			<string>PHP Embedded Punctuation</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#be5046</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Embedded Scope</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.scope.begin.php,punctuation.section.embedded.scope.end.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Embedded Source Array</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.source.array.php,punctuation.section.embedded.source.array.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP Embedded String Contents</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded.source.string-contents.php,punctuation.section.embedded.source.string-contents.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98C379</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>
