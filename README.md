@@ -9,10 +9,7 @@ This extension is available for free in the [Visual Studio Code Marketplace](htt
 
 ## What's new?
 
-**Version 0.2.14**
-* Better Ruby coloring
-* Fix Rust lifetime colors
-* Fix PHP variables inside double quoted string
+Click here to go to the [Changelog](https://github.com/akamud/vscode-theme-onedark/blob/master/CHANGELOG.md)
 
 ## Inconsistencies 
 
