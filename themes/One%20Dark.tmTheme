@@ -731,7 +731,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C679DD</string>
+				<string>#c678dd</string>
 			</dict>
 		</dict>
 		<!--<dict>
@@ -834,7 +834,7 @@
 			<key>name</key>
 			<string>Json key</string>
 			<key>scope</key>
-			<string>source.json                           meta.structure.dictionary.json                              string.quoted.double.json</string>
+			<string>source.json,meta.structure.dictionary.json,string.quoted.double.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -893,7 +893,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C679DD</string>
+				<string>#c678dd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -904,7 +904,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C679DD</string>
+				<string>#c678dd</string>
 			</dict>
 		</dict>
         <dict>
@@ -1362,13 +1362,124 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>function meta variable js ts</string>
+			<string>function meta variable, single-variable js ts</string>
 			<key>scope</key>
-			<string>variable.meta.function.readwrite.js,variable.meta.function.readwrite.ts</string>
+			<string>variable.meta.function.readwrite.js,variable.meta.function.readwrite.ts,variable.meta.function.var-single-variable.readwrite.js,variable.meta.function.var-single-variable.readwrite.ts</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#A6B2C0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>token variable readwrite js ts</string>
+			<key>scope</key>
+			<string>token.readwrite.variable.js,token.readwrite.variable.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>meta single-variable js ts</string>
+			<key>scope</key>
+			<string>variable.meta.readwrite.var-single-variable.js,variable.meta.readwrite.var-single-variable.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>js ts token string detected-link</string>
+			<key>scope</key>
+			<string>token.string.detected-link.js,token.string.detected-link.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c678dd</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>js ts support function module node</string>
+			<key>scope</key>
+			<string>token.support.function.module.node.js,token.support.function.module.node.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#abb2bf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>js ts template-expression begin,end</string>
+			<key>scope</key>
+			<string>token.string.template.expression.template-expression.begin.js,token.string.template.expression.template-expression.end.js,token.string.template.expression.template-expression.begin.ts,token.string.template.expression.template-expression.end.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#be5046</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>js ts template expression punctuation</string>
+			<key>scope</key>
+			<string>token.string.template.expression.punctuation.js,token.string.template.expression.punctuation.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98C379</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>js ts template expression property</string>
+			<key>scope</key>
+			<string>token.string.template.expression.variable.property.js,token.string.template.expression.variable.property.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>js ts template expression variable</string>
+			<key>scope</key>
+			<string>token.string.template.expression.variable.js,token.string.template.expression.variable.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DF6A73</string>
+			</dict>
+		</dict>
+		<!-- can't differentiate between some functions, coloring would be affected for different functions types
+		<dict>
+			<key>name</key>
+			<string>js ts function expr</string>
+			<key>scope</key>
+			<string>token.entity.name.function.expr.js,token.entity.name.function.expr.ts</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
+			</dict>
+		</dict>-->
+		<dict>
+			<key>name</key>
+			<string>json quote begin,end</string>
+			<key>scope</key>
+			<string>token.structure.dictionary.json.punctuation.begin.string.double,token.structure.dictionary.json.punctuation.end.string.double</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 	</array>
