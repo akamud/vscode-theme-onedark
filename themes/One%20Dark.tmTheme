@@ -1482,6 +1482,17 @@
 				<string>#98C379</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>json numeric</string>
+			<key>scope</key>
+			<string>token.structure.dictionary.json.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d19a66</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>32bd64fa-d60a-4858-a5fc-5164cc49a2b8</string>
