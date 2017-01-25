@@ -536,13 +536,35 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown Link title</string>
+			<string>Markdown punctuation begin and end</string>
 			<key>scope</key>
-			<string>markdown.link.title.string</string>
+			<string>markdown.punctuation.begin,markdown.punctuation.end</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6B2C0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Link title and description</string>
+			<key>scope</key>
+			<string>markdown.link.title.string,markdown.link.description.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#61AFEF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown Detected Link</string>
+			<key>scope</key>
+			<string>markdown.link.detected-link.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c678dd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -670,7 +692,7 @@
 			<key>name</key>
 			<string>Lists</string>
 			<key>scope</key>
-			<string>markup.list.punctuation.definition</string>
+			<string>markup.list.punctuation.definition.beginning</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>

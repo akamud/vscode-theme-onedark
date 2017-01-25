@@ -1,4 +1,8 @@
-## Version 0.3
+## Version 0.3.1
+* Fix JSON numeric values
+* Fix Markdown lists coloring
+
+## Version 0.3.0
 * *Much* Better JS and TS support
 * Add support for a bunch JS/TS tokens, like string interpolations
 * Fixes Links inside JS/TS files
