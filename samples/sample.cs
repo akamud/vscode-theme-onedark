@@ -5,35 +5,32 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace WilsonScore.Tests
+namespace MyNamespace
 {
-    public class ScoreTests
+    public class MyClass
     {
-        [Fact]
-        void WilsonScore_Should_Be_Zero_If_There_Are_No_Ups()
+        public MyClass()
         {
-            Assert.True(Wilson.Score(0, 2) == 0);
         }
-
-        [Fact]
-        void WilsonScore_Should_Be_Lower_Than_Average_Score()
+        public void SomeMethod()
         {
-            double expected = ((double)1 / (double)2);
-            Assert.True(Wilson.Score(1, 2) < expected);
         }
-
-        [Fact]
-        void Int_Overload_Should_Result_The_Same_As_Double_Overload()
+        private int _variable;
+        public int Variable
         {
-            double expectedDouble = Wilson.Score((double)8, (double)32);
-            double expectedInt = Wilson.Score(8, 32);
-            Assert.Equal(expectedInt, expectedDouble);
+            get { return _variable; }
+            set { _variable = value; }
         }
-
-        [Fact]
-        void WilsonScore_Should_Be_Higher_For_Same_Average_But_Higher_Totals(int whatever)
+        public static void Main()
         {
-            Assert.True(Wilson.Score(500, 1000) > Wilson.Score(1, 2));
+            // instantiate it
+            MyClass instance = new MyClass();
+            // invoke the method
+            instance.SomeMethod();
+            // set the variable
+            instance.Variable = 99;
+            // get the variable
+            System.Console.WriteLine( "Variable=" + instance.Variable.ToString() );
         }
     }
 }

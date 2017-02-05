@@ -15,6 +15,8 @@ Click here to go to the [Changelog](https://github.com/akamud/vscode-theme-oneda
 
 ## Inconsistencies 
 
+VSCode 1.9 completely changed the way it handles coloring. I'm still working through all the changes, you can track the progress [here](https://github.com/akamud/vscode-theme-onedark/issues/35)
+
 If you find any inconsistency in any language, raise an Issue and I'll fix it, please provide a sample for the language so I can compare. 
 
 ## Credits
