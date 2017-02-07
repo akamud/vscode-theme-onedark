@@ -14,6 +14,9 @@ look like:
 * that one
 * the other one
 
+1. this
+2. that
+
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
 
@@ -28,9 +31,6 @@ content starts at 4-columns in.
 VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax) theme
 
 ![Sample image](sample.png)
-
-1. Numbered List
-2. Numbered List
 
 * **Bold Item in List**: Element in list `ClientId`
 

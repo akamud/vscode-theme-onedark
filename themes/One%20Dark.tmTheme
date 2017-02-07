@@ -23,6 +23,8 @@
           <string>#2C313A</string>
           <key>selection</key>
           <string>#3E4451</string>
+          <key>findHighlight</key>
+          <string>#FFE792</string>
           <key>guide</key>
           <string>#3C4049</string>
           <key>activeGuide</key>
@@ -38,7 +40,7 @@
         <dict>
           <key>foreground</key>
           <string>#5C6370</string>
-          <key>font-style</key>
+          <key>fontStyle</key>
           <string>italic</string>
         </dict>
       </dict>
@@ -348,7 +350,7 @@
         <dict>
           <key>foreground</key>
           <string>#E5C07B</string>
-          <key>font-weight</key>
+          <key>fontStyle</key>
           <string>bold</string>
         </dict>
       </dict>
@@ -361,7 +363,7 @@
         <dict>
           <key>foreground</key>
           <string>#C678DD</string>
-          <key>font-style</key>
+          <key>fontStyle</key>
           <string>italic</string>
         </dict>
       </dict>
@@ -655,7 +657,7 @@
         <dict>
           <key>foreground</key>
           <string>#D19A66</string>
-          <key>font-weight</key>
+          <key>fontStyle</key>
           <string>bold</string>
         </dict>
       </dict>
@@ -690,7 +692,7 @@
         <dict>
           <key>foreground</key>
           <string>#C678DD</string>
-          <key>font-style</key>
+          <key>fontStyle</key>
           <string>italic</string>
         </dict>
       </dict>
@@ -1015,6 +1017,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>customrule</string>
+        <key>scope</key>
+        <string>customrule</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>[VSCODE-CUSTOM] Support Type Property Name</string>
         <key>scope</key>
         <string>support.type.property-name</string>
@@ -1169,6 +1182,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>[VSCODE-CUSTOM] JS/TS Variable Property</string>
+        <key>scope</key>
+        <string>support.variable.property.js,support.variable.property.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>[VSCODE-CUSTOM] Css Support Constant Value</string>
         <key>scope</key>
         <string>support.constant.property-value.css</string>
@@ -1231,6 +1255,173 @@
         <dict>
           <key>foreground</key>
           <string>#E5C07B</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown headings</string>
+        <key>scope</key>
+        <string>entity.name.section.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown heading Punctuation Definition</string>
+        <key>scope</key>
+        <string>punctuation.definition.heading.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown heading setext</string>
+        <key>scope</key>
+        <string>markup.heading.setext</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Punctuation Definition Bold</string>
+        <key>scope</key>
+        <string>punctuation.definition.bold.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Inline Raw</string>
+        <key>scope</key>
+        <string>markup.inline.raw.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown List Punctuation Definition</string>
+        <key>scope</key>
+        <string>beginning.punctuation.definition.list.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Quote</string>
+        <key>scope</key>
+        <string>markup.quote.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#5C6370</string>
+          <key>fontStyle</key>
+          <string>italic</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Punctuation Definition String</string>
+        <key>scope</key>
+        <string>punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.metadata.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Punctuation Definition Link</string>
+        <key>scope</key>
+        <string>punctuation.definition.metadata.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Underline Link/Image</string>
+        <key>scope</key>
+        <string>markup.underline.link.markdown,markup.underline.link.image.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Markdown Link Title/Description</string>
+        <key>scope</key>
+        <string>string.other.link.title.markdown,string.other.link.description.markdown</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#61AFEF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Ruby Punctuation Separator Variable</string>
+        <key>scope</key>
+        <string>punctuation.separator.variable.ruby</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Ruby Other Constant Variable</string>
+        <key>scope</key>
+        <string>variable.other.constant.ruby</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] Ruby Keyword Operator Other</string>
+        <key>scope</key>
+        <string>keyword.operator.other.ruby</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] PHP Punctuation Variable Definition</string>
+        <key>scope</key>
+        <string>punctuation.definition.variable.php</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
         </dict>
       </dict>
     </array>
