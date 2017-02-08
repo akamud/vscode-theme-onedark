@@ -1193,6 +1193,105 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>[VSCODE-CUSTOM] JS Default Keyword</string>
+        <key>scope</key>
+        <string>keyword.control.default.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS/TS Instanceof Keyword</string>
+        <key>scope</key>
+        <string>keyword.operator.expression.instanceof.js,keyword.operator.expression.instanceof.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS/TS Of Keyword</string>
+        <key>scope</key>
+        <string>keyword.operator.expression.of.js,keyword.operator.expression.of.ts</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#C678DD</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS Braces/Brackets</string>
+        <key>scope</key>
+        <string>meta.brace.round.js,meta.array-binding-pattern-variable.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS Punctuation Accessor</string>
+        <key>scope</key>
+        <string>punctuation.accessor.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS Punctuation Terminator Statement</string>
+        <key>scope</key>
+        <string>punctuation.terminator.statement.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS Array variables</string>
+        <key>scope</key>
+        <string>meta.array-binding-pattern-variable.js variable.other.readwrite.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS Support Variables</string>
+        <key>scope</key>
+        <string>source.js support.variable</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS Support Variables</string>
+        <key>scope</key>
+        <string>variable.other.constant.property.js</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>[VSCODE-CUSTOM] Css Support Constant Value</string>
         <key>scope</key>
         <string>support.constant.property-value.css</string>
