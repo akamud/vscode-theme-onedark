@@ -27,7 +27,7 @@
             {
                 "label": "Atom One Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/One%20Dark.tmTheme"
+                "path": "./themes/OneDark.tmTheme"
             }
         ]
     },
