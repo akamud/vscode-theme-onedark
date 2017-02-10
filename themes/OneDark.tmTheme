@@ -1116,9 +1116,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Punctuation for key-value</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Punctuation for key-value</string>
         <key>scope</key>
-        <string>punctuation.separator.key-value.ts,punctuation.separator.key-value.js</string>
+        <string>punctuation.separator.key-value.ts,punctuation.separator.key-value.tsx,punctuation.separator.key-value.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1127,20 +1127,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Embedded Operator</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Punctuation separator for , in args</string>
         <key>scope</key>
-        <string>source.js.embedded.html keyword.operator,source.ts.embedded.html keyword.operator</string>
-        <key>settings</key>
-        <dict>
-          <key>foreground</key>
-          <string>#56B6C2</string>
-        </dict>
-      </dict>
-      <dict>
-        <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Variable Other Readwrite</string>
-        <key>scope</key>
-        <string>variable.other.readwrite.js,variable.other.readwrite.ts</string>
+        <string>punctuation.separator.parameter.ts,punctuation.separator.parameter.tsx,punctuation.separator.parameter.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1149,9 +1138,31 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Support Variable Dom</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Embedded Operator</string>
         <key>scope</key>
-        <string>support.variable.dom.js,support.variable.dom.ts</string>
+        <string>source.js.embedded.html keyword.operator,source.ts.embedded.html keyword.operator,source.tsx.embedded.html keyword.operator</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#56B6C2</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Variable Other Readwrite</string>
+        <key>scope</key>
+        <string>variable.other.readwrite.js,variable.other.readwrite.ts,variable.other.readwrite.tsx</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Support Variable Dom</string>
+        <key>scope</key>
+        <string>support.variable.dom.js,support.variable.dom.ts,support.variable.dom.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1160,9 +1171,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Support Variable Property Dom</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Support Variable Property Dom</string>
         <key>scope</key>
-        <string>support.variable.property.dom.js,support.variable.property.dom.ts</string>
+        <string>support.variable.property.dom.js,support.variable.property.dom.ts,support.variable.property.dom.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1171,9 +1182,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Interpolation String Punctuation</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Interpolation String Punctuation</string>
         <key>scope</key>
-        <string>meta.template.expression.js punctuation.definition,meta.template.expression.ts punctuation.definition</string>
+        <string>meta.template.expression.js punctuation.definition,meta.template.expression.ts punctuation.definition,meta.template.expression.tsx punctuation.definition</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1182,9 +1193,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Punctuation Type Parameters</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Punctuation Type Parameters</string>
         <key>scope</key>
-        <string>source.ts punctuation.definition.typeparameters,source.js punctuation.definition.typeparameters</string>
+        <string>source.ts punctuation.definition.typeparameters,source.tsx punctuation.definition.typeparameters,source.js punctuation.definition.typeparameters</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1193,9 +1204,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Definition Block</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Definition Block</string>
         <key>scope</key>
-        <string>source.ts punctuation.definition.block,source.js punctuation.definition.block</string>
+        <string>source.ts punctuation.definition.block,source.tsx punctuation.definition.block,source.js punctuation.definition.block</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1204,9 +1215,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Punctuation Separator Comma</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Punctuation Separator Comma</string>
         <key>scope</key>
-        <string>source.ts punctuation.separator.comma,source.js punctuation.separator.comma</string>
+        <string>source.ts punctuation.separator.comma,source.tsx punctuation.separator.comma,source.js punctuation.separator.comma</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1215,9 +1226,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Variable Property</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Variable Property</string>
         <key>scope</key>
-        <string>support.variable.property.js,support.variable.property.ts</string>
+        <string>support.variable.property.js,support.variable.property.ts,support.variable.property.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1226,9 +1237,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Default Keyword</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Default Keyword</string>
         <key>scope</key>
-        <string>keyword.control.default.js,keyword.control.default.ts</string>
+        <string>keyword.control.default.js,keyword.control.default.ts,keyword.control.default.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1237,9 +1248,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Instanceof Keyword</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Instanceof Keyword</string>
         <key>scope</key>
-        <string>keyword.operator.expression.instanceof.js,keyword.operator.expression.instanceof.ts</string>
+        <string>keyword.operator.expression.instanceof.js,keyword.operator.expression.instanceof.ts,keyword.operator.expression.instanceof.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1248,9 +1259,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Of Keyword</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Of Keyword</string>
         <key>scope</key>
-        <string>keyword.operator.expression.of.js,keyword.operator.expression.of.ts</string>
+        <string>keyword.operator.expression.of.js,keyword.operator.expression.of.ts,keyword.operator.expression.of.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1259,9 +1270,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Braces/Brackets</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Braces/Brackets</string>
         <key>scope</key>
-        <string>meta.brace.round.js,meta.array-binding-pattern-variable.js,meta.brace.square.js,meta.brace.round.ts,meta.array-binding-pattern-variable.ts,meta.brace.square.ts</string>
+        <string>meta.brace.round.js,meta.array-binding-pattern-variable.js,meta.brace.square.js,meta.brace.round.ts,meta.array-binding-pattern-variable.ts,meta.brace.square.ts,meta.brace.round.tsx,meta.array-binding-pattern-variable.tsx,meta.brace.square.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1270,9 +1281,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Punctuation Accessor</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Punctuation Accessor</string>
         <key>scope</key>
-        <string>punctuation.accessor.js,punctuation.accessor.ts</string>
+        <string>punctuation.accessor.js,punctuation.accessor.ts,punctuation.accessor.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1281,9 +1292,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Punctuation Terminator Statement</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Punctuation Terminator Statement</string>
         <key>scope</key>
-        <string>punctuation.terminator.statement.js,punctuation.terminator.statement.ts</string>
+        <string>punctuation.terminator.statement.js,punctuation.terminator.statement.ts,punctuation.terminator.statement.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1292,9 +1303,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Array variables</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Array variables</string>
         <key>scope</key>
-        <string>meta.array-binding-pattern-variable.js variable.other.readwrite.js,meta.array-binding-pattern-variable.ts variable.other.readwrite.ts</string>
+        <string>meta.array-binding-pattern-variable.js variable.other.readwrite.js,meta.array-binding-pattern-variable.ts variable.other.readwrite.ts,meta.array-binding-pattern-variable.tsx variable.other.readwrite.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1303,9 +1314,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Support Variables</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Support Variables</string>
         <key>scope</key>
-        <string>source.js support.variable,source.ts support.variable</string>
+        <string>source.js support.variable,source.ts support.variable,source.tsx support.variable</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1314,9 +1325,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Support Variables</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Support Variables</string>
         <key>scope</key>
-        <string>variable.other.constant.property.js,variable.other.constant.property.ts</string>
+        <string>variable.other.constant.property.js,variable.other.constant.property.ts,variable.other.constant.property.tsx</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1325,9 +1336,9 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] JS/TS Keyword New</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Keyword New</string>
         <key>scope</key>
-        <string>keyword.operator.new.ts,keyword.operator.new.js</string>
+        <string>keyword.operator.new.ts,keyword.operator.new.tsx,keyword.operator.new.js</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1336,9 +1347,20 @@
       </dict>
       <dict>
         <key>name</key>
-        <string>[VSCODE-CUSTOM] TS Keyword Operator</string>
+        <string>[VSCODE-CUSTOM] JS/TS/TSX Object literal key Operator</string>
         <key>scope</key>
-        <string>source.ts keyword.operator</string>
+        <string>meta.object-literal.key.js,meta.object-literal.key.ts,meta.object-literal.key.tsx</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] TS/TSX Keyword Operator</string>
+        <key>scope</key>
+        <string>source.ts keyword.operator,source.tsx keyword.operator</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
