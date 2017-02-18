@@ -1,3 +1,4 @@
+#[derive(Debug)]
 struct HasLifetime<'a> {
   some_string: &'a str
 }
