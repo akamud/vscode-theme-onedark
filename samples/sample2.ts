@@ -31,5 +31,3 @@ class Foo {
         return null;
     }
 }
-
-export default Icon;
