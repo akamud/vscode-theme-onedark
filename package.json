@@ -2,7 +2,7 @@
     "name": "vscode-theme-onedark",
     "displayName": "Atom One Dark Theme",
     "description": "One Dark Theme based on Atom",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "publisher": "akamud",
     "license": "MIT",
     "galleryBanner": {
@@ -21,7 +21,7 @@
         "dark",
         "one dark"
     ],
-    "icon": "icon.png",
+    "icon": "icon.svg",
     "contributes": {
         "themes": [
             {

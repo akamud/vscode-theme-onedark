@@ -9,6 +9,10 @@ VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax)
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)  
 
+## Looking for the One Light theme?
+
+If you are interested you can also have the One Light theme available [here](https://github.com/akamud/vscode-theme-onelight).
+
 ## What's new?
 
 Click here to go to the [Changelog](https://github.com/akamud/vscode-theme-onedark/blob/master/CHANGELOG.md)

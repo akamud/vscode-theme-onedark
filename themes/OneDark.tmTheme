@@ -1272,7 +1272,7 @@
         <key>name</key>
         <string>[VSCODE-CUSTOM] JS/TS Punctuation Accessor</string>
         <key>scope</key>
-        <string>punctuation.accessor.js,punctuation.accessor.ts,punctuation.accessor.tsx</string>
+        <string>source.js punctuation.accessor,source.ts punctuation.accessor,source.tsx punctuation.accessor</string>
         <key>settings</key>
         <dict>
           <key>foreground</key>
@@ -1409,6 +1409,17 @@
         <dict>
           <key>foreground</key>
           <string>#E06C75</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>[VSCODE-CUSTOM] JS/TS Template Strings Punctuation Accessor</string>
+        <key>scope</key>
+        <string>source.js meta.template.expression.js punctuation.accessor,source.ts meta.template.expression.ts punctuation.accessor,source.tsx meta.template.expression.tsx punctuation.accessor</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#98C379</string>
         </dict>
       </dict>
       <dict>
