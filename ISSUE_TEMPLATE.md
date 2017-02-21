@@ -1,4 +1,4 @@
-**Please provide as much information as possible, usually I need these informations to actually start working on an issue, so try to fill as much of these as possible**
+**Please provide as much information as possible, usually I need these information to actually start working on an issue, so try to fill as much of these as possible**
 
 ## Sample code
 
