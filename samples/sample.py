@@ -32,3 +32,6 @@ foo = list()
 @my_decorator('some_str', my_list=['str', 1])
 def my_func(args):
     pass
+
+const = 42
+PI = 3.14
