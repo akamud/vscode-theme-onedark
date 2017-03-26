@@ -233,6 +233,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>Constant Other Caps Python</string>
+        <key>scope</key>
+        <string>constant.other.caps.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#ABB2BF</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>Variable</string>
         <key>scope</key>
         <string>variable</string>
