@@ -35,3 +35,5 @@ def my_func(args):
 
 const = 42
 PI = 3.14
+langConst = True
+NOTHING = None

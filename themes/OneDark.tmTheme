@@ -1435,6 +1435,17 @@
       </dict>
       <dict>
         <key>name</key>
+        <string>[VSCODE-CUSTOM] Python Language Constants</string>
+        <key>scope</key>
+        <string>source.python constant.language.python</string>
+        <key>settings</key>
+        <dict>
+          <key>foreground</key>
+          <string>#D19A66</string>
+        </dict>
+      </dict>
+      <dict>
+        <key>name</key>
         <string>[VSCODE-CUSTOM] Css Support Constant Value</string>
         <key>scope</key>
         <string>support.constant.property-value.css</string>
