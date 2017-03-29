@@ -37,3 +37,4 @@ const = 42
 PI = 3.14
 langConst = True
 NOTHING = None
+print '{} {!r}'.format('some string formatted', 'another\nstring')
