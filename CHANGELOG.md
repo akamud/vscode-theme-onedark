@@ -1,5 +1,5 @@
-## Version 1.3.2
+## Version 2.0.0
 
-* Full support for VSCode 1.9
-* Fix JSX/TSX inconsistencies
-* Fix Python constants
+The best rated One Dark port now includes Workbench theming!
+
+* Support for Workbench theming
