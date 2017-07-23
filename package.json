@@ -21,7 +21,7 @@
         "dark",
         "one dark"
     ],
-    "icon": "icon.svg",
+    "icon": "icon.png",
     "contributes": {
         "themes": [
             {
@@ -42,17 +42,17 @@
     },
     "badges": [
 		{
-			"url": "http://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg",
+			"url": "https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg",
 			"href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
 			"description": "Extension version"
 		},
 		{
-			"url": "http://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg",
+			"url": "https://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg",
 			"href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
 			"description": "Extension installs"
 		},
 		{
-			"url": "http://vsmarketplacebadge.apphb.com/rating/akamud.vscode-theme-onedark.svg",
+			"url": "https://vsmarketplacebadge.apphb.com/rating/akamud.vscode-theme-onedark.svg",
 			"href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
 			"description": "Extension Rating"
 		}
