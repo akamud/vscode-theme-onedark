@@ -19,3 +19,5 @@ type TimeoutFunction = Box<Fn(&str, &ArgsMatcher) -> ()>;
 fn whatever(&self, closure: Box<Fn() + 'static>) {
   // do nothing
 }
+
+pub unsafe fn hello() {}

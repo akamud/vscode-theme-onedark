@@ -33,3 +33,7 @@ class Foo {
 }
 
 export default Icon;
+
+module.exports = {
+    
+}

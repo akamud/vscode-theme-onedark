@@ -35,3 +35,14 @@ def my_func(args):
 
 const = 42
 PI = 3.14
+langConst = True
+NOTHING = None
+print '{} {!r}'.format('some string formatted', 'another\nstring')
+
+from numpy import ndarray
+
+def myfun(myvar: ndarray=2):
+    return 0
+
+if __name__ is '__main__' and not None:
+    pass
