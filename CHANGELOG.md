@@ -1,9 +1,11 @@
-## Version 2.0.3
+## Version 2.0.4
 
 The best rated One Dark port now includes Workbench theming!
 
-* Support for Workbench theming
-* MUCH better React coloring
-* Fixes various JS/TS issues
-* Fix PHP bracket issue
-* Fix CSharp inconsistencies
+* Fix Rust Unsafe keyword
+* Python coloring improvements
+* Fix Notification background color
+* Fix dropdown color
+* Change extension buttons colors
+* Fix Markdown raw block colors
+* Fixes some JS and TS colors
