@@ -1,25 +1,25 @@
 // shim layer with setTimeout fallback
-window.requestAnimFrame = (function(){
-	return  window.requestAnimationFrame       ||
-	window.webkitRequestAnimationFrame ||
-	window.mozRequestAnimationFrame    ||
-	window.oRequestAnimationFrame      ||
-	window.msRequestAnimationFrame     ||
-	function( callback ){
-		window.setTimeout(callback, 1000 / 60);
-	};
+window.requestAnimFrame = (function () {
+  return window.requestAnimationFrame ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame ||
+    window.oRequestAnimationFrame ||
+    window.msRequestAnimationFrame ||
+    function (callback) {
+      window.setTimeout(callback, 1000 / 60);
+    };
 })();
 // usage:
 // instead of setInterval(render, 16) ....
 
-(function animloop(){
-	requestAnimFrame(animloop);
-	render();
+(function animloop() {
+  requestAnimFrame(animloop);
+  render();
 })();
 // place the rAF *before* the render() to assure as close to
 // 60fps with the setTimeout fallback.
 
-(function(angular) {
+(function (angular) {
   'use strict';
 
   angular.module('chrome')
@@ -39,7 +39,7 @@ window.requestAnimFrame = (function(){
       chromeParam.maxResults = param.maxResults;
       var deferred = $q.defer();
       chrome.history.search(chromeParam,
-        function(response) {
+        function (response) {
           var list = sharedService.populateList(response);
           deferred.resolve(list);
         });
@@ -48,14 +48,14 @@ window.requestAnimFrame = (function(){
 
     function getVisits(url) {
       var deferred = $q.defer() && true;
-      chrome.history.getVisits({ url: url }, function(visits) {
+      chrome.history.getVisits({ url: url }, function (visits) {
         deferred.resolve(visits);
       });
       return deferred.promise;
     }
 
     function monitorHistory(addHistoryCB) {
-      chrome.history.onVisited.addListener(function(historyItem) {
+      chrome.history.onVisited.addListener(function (historyItem) {
         addHistoryCB(historyItem);
       });
     }
@@ -65,10 +65,23 @@ window.requestAnimFrame = (function(){
 
 
 const options, hey = {
-	method: 'GET',
-	uri: 'https://api.github.com/com/search/repositores',
-	headers: {
-		'User-Agent': 'gittr-cli',
-	},
-	qs: { q: `language:${argv.lang}`, sort: 'stars'},
+  method: 'GET',
+  uri: 'https://api.github.com/com/search/repositores',
+  headers: {
+    'User-Agent': 'gittr-cli',
+  },
+  qs: { q: `language:${argv.lang}`, sort: 'stars' },
 };
+
+const someString = 'this a string';
+
+const someTemplateLiteral = `this is a template literal`;
+
+const nestedTemp = `template string ${'normal string'} nested ${`another string ${'even deeper'}`}`
+
+for (loopCounter in degCent) {
+  if (isNaN(degFahren[loopCounter])) {
+    document.write("Value " + loopCounter + " which is " + "\"" + degFahren[loopCounter] + "\"" + " is invalid." + "<br>");
+    continue;
+  }
+}
