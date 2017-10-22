@@ -1,5 +1,11 @@
 The best rated One Dark port now includes Workbench theming!
 
+## Version 2.0.6
+
+* Better contrast colors for sidebar sections, thanks to @fthebaud
+* Fix "in" keyword in JS loops
+* Fix JS template literals inconsistencies
+
 ## Version 2.0.5
 
 * Fix Bash variables coloring
