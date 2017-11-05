@@ -1,5 +1,10 @@
 The best rated One Dark port now includes Workbench theming!
 
+## Version 2.1.0
+
+* Peek window is now themed
+* Badges colors are now consistent in every window
+
 ## Version 2.0.6
 
 * Better contrast colors for sidebar sections, thanks to @fthebaud
