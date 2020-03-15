@@ -85,3 +85,11 @@ for (loopCounter in degCent) {
     continue;
   }
 }
+
+export async function teste(paramValue) {
+  return Promise.all(paramValue.map(async x => {
+    const constValue = (x.value instanceof Something);
+    const paramValue = (
+      valueIsSomething ? (await _something()) : x.value);
+  }))
+}

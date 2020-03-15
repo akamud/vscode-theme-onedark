@@ -1,5 +1,10 @@
 The best rated One Dark port now includes Workbench theming!
 
+## Version 2.2.0
+* Update Atom's original colors to better reflect the theme
+* Fixes whitespace characters rendering
+* Merges #95 with a bunch of editor colors improvements
+
 ## Version 2.1.0
 
 * Peek window is now themed

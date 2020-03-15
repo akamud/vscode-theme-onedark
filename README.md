@@ -22,6 +22,12 @@ Click here to go to the [Changelog](https://github.com/akamud/vscode-theme-oneda
 
 If you find any inconsistency in any language, raise an Issue and I'll fix it, please provide a sample for the language so I can compare. 
 
+**Attention:** If you are using **VSCode 1.43.0**, you must be seeing very different colors, as reported [here](https://github.com/akamud/vscode-theme-onedark/issues/119). An update to VSCode will be released fixing this issue for all themes, in the meantime, make sure you set this in your settings:
+
+```json
+"editor.semanticHighlighting.enabled": false
+```
+
 ## Customization
 
 If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
