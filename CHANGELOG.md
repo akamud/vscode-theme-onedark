@@ -1,5 +1,8 @@
 The best rated One Dark port now includes Workbench theming!
 
+## Version 2.2.1
+* Improve Rust highlighting
+
 ## Version 2.2.0
 * Update Atom's original colors to better reflect the theme
 * Fixes whitespace characters rendering

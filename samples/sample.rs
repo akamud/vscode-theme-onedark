@@ -20,4 +20,10 @@ fn whatever(&self, closure: Box<Fn() + 'static>) {
   // do nothing
 }
 
+impl<'a> AsRef<i32> for Foo<'a> {
+    fn as_ref(&self) -> &i32 {
+        &self.x
+    }
+}
+
 pub unsafe fn hello() {}
