@@ -6,6 +6,12 @@ VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax)
 
 ![](https://raw.githubusercontent.com/akamud/vscode-theme-onedark/master/screenshots/preview.png)
 
+## Sponsors
+
+[![](https://alt-images.codestream.com/codestream_logo_ali_atomonedark.png)](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=ali_atomonedark&utm_medium=banner "Try CodeStream")  
+Request and perform code reviews from inside your IDE. Review any code, even if it's a work-in-progress that hasn't been committed yet, and use jump-to-definition, your favorite keybindings, and other IDE tools.  
+[Try it free](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=ali_atomonedark&utm_medium=banner "Try CodeStream")
+
 ## Installing
 
 This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)  
