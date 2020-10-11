@@ -1438,7 +1438,7 @@
       "name": "[VSCODE-CUSTOM] LaTeX Section Title",
       "scope": ["entity.name.section.latex"],
       "settings": { "fontStyle": "bold", "foreground": "#61AFEF" }
-    })
+    }
   ],
   "uuid": "32bd64fa-d60a-4858-a5fc-5164cc49a2b8"
 }
