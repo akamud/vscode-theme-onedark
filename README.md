@@ -9,7 +9,7 @@ VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax)
 ## Sponsors
 
 [![](https://alt-images.codestream.com/codestream_logo_ali_atomonedark.png)](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=ali_atomonedark&utm_medium=banner "Try CodeStream")  
-Eliminate context switching and costly distractions. Create and merge PRs and perform code reviews from inside your IDE while using jump-to-definition, your keybindings, and other IDE favorites. 
+Eliminate context switching and costly distractions. Create and merge PRs and perform code reviews from inside your IDE while using jump-to-definition, your keybindings, and other IDE favorites.  
 [Learn more](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=ali_atomonedark&utm_medium=banner "Learn more")
 
 ## Installing
