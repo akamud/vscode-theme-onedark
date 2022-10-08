@@ -6,14 +6,14 @@
     "publisher": "akamud",
     "license": "MIT",
     "galleryBanner": {
-		"color": "#282C34",
-		"theme": "dark"
-	},
+        "color": "#282C34",
+        "theme": "dark"
+    },
     "engines": {
-       "vscode": "^1.12.0"
+        "vscode": "^1.12.0"
     },
     "categories": [
-    "Themes"
+        "Themes"
     ],
     "keywords": [
         "atom",
@@ -40,21 +40,24 @@
         "type": "git",
         "url": "https://github.com/akamud/vscode-theme-onedark"
     },
+    "sponsor": {
+        "url": "https://github.com/sponsors/akamud"
+    },
     "badges": [
-		{
-			"url": "https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg",
-			"href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
-			"description": "Extension version"
-		},
-		{
-			"url": "https://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg",
-			"href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
-			"description": "Extension installs"
-		},
-		{
-			"url": "https://vsmarketplacebadge.apphb.com/rating/akamud.vscode-theme-onedark.svg",
-			"href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
-			"description": "Extension Rating"
-		}
-	]
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg",
+            "href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
+            "description": "Extension version"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg",
+            "href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
+            "description": "Extension installs"
+        },
+        {
+            "url": "https://vsmarketplacebadge.apphb.com/rating/akamud.vscode-theme-onedark.svg",
+            "href": "https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark",
+            "description": "Extension Rating"
+        }
+    ]
 }
