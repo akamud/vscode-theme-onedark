@@ -1,6 +1,9 @@
 # Atom One Dark Theme
 
-[![Marketplace](https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark) [![Installs](https://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark) [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)
+[![Marketplace](https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark) 
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)
+[![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-brightgreen)](https://vscode.dev/theme/akamud.vscode-theme-onedark) 
 [![Beerpay](https://img.shields.io/beerpay/akamud/vscode-theme-onedark.svg)](https://beerpay.io/akamud/vscode-theme-onedark)  
 VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax) theme. Best rated One Dark theme port in the marketplace, **features full Workbench theming**.
 
