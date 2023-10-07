@@ -1,19 +1,17 @@
 # Atom One Dark Theme
 
-[![Marketplace](https://vsmarketplacebadge.apphb.com/version/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark) 
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/akamud.vscode-theme-onedark.svg)](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-brightgreen)](https://vscode.dev/theme/akamud.vscode-theme-onedark) 
-[![Beerpay](https://img.shields.io/beerpay/akamud/vscode-theme-onedark.svg)](https://beerpay.io/akamud/vscode-theme-onedark)  
+![Visual Studio Marketplace Version (including pre-releases)](https://img.shields.io/visual-studio-marketplace/v/akamud.vscode-theme-onedark)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/akamud.vscode-theme-onedark)
+![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/akamud.vscode-theme-onedark)
+
 VSCode Theme based on Atom's [One Dark](https://github.com/atom/one-dark-syntax) theme. Best rated One Dark theme port in the marketplace, **features full Workbench theming**.
 
 ![](https://raw.githubusercontent.com/akamud/vscode-theme-onedark/master/screenshots/preview.png)
 
 ## Sponsors
 
-[![](https://alt-images.codestream.com/codestream_logo_ali_atomonedark.png)](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=ali_atomonedark&utm_medium=banner "Try CodeStream")  
-Eliminate context switching and costly distractions. Create and merge PRs and perform code reviews from inside your IDE while using jump-to-definition, your keybindings, and other IDE favorites.  
-[Learn more](https://sponsorlink.codestream.com/?utm_source=vscmarket&utm_campaign=ali_atomonedark&utm_medium=banner "Learn more")
+[Sponsor](https://github.com/sponsors/akamud) this project on GitHub.
 
 ## Installing
 
